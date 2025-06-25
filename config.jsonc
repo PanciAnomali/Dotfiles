@@ -1,0 +1,117 @@
+
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+	"source": "~/.config/fastfetch/NewFile.txt",
+        "type": "file",
+        "height": 5,
+        "width": 50,
+        "padding": {
+            "top": 5,
+	    "right": 0
+        },
+	"color": {
+	    "1": "#D2D99C"
+	}
+    },
+    "modules": [
+        "break",
+        {
+            "type": "custom",
+            "format": "\u001b[90m┌──────────────────────Hardware──────────────────────┐"
+        },
+        {
+            "type": "host",
+            "key": " PC",
+            "keyColor": "#EEF277"
+        },
+        {
+            "type": "cpu",
+            "key": "│ ├",
+            "keyColor": "#EEF277"
+        },
+        {
+            "type": "gpu",
+            "key": "│ ├󰍛",
+            "keyColor": "#EEF277"
+        },
+        {
+            "type": "memory",
+            "key": "│ ├󰍛",
+            "keyColor": "#EEF277"
+        },
+        {
+            "type": "disk",
+            "key": "└ └",
+            "keyColor": "#EEF277"
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[90m└────────────────────────────────────────────────────┘"
+        },
+        "break",
+        {
+            "type": "custom",
+            "format": "\u001b[90m┌──────────────────────Software──────────────────────┐"
+        },
+        {
+            "type": "os",
+            "key": " OS",
+            "keyColor": "#F2E4DC"
+        },
+        {
+            "type": "kernel",
+            "key": "│ ├",
+            "keyColor": "#F2E4DC"
+        },
+
+        {
+            "type": "packages",
+            "key": "│ ├󰏖",
+            "keyColor": "#F2E4DC"
+        },
+        {
+            "type": "shell",
+            "key": "└ └",
+            "keyColor": "#F2E4DC"
+        },
+        "break",
+        {
+            "type": "de",
+            "key": " DE",
+            "keyColor": "#F2E4DC"
+        },
+        {
+            "type": "lm",
+            "key": "│ ├",
+            "keyColor": "#F2E4DC"
+        },
+        {
+            "type": "wm",
+            "key": "│ ├",
+            "keyColor": "#F2E4DC"
+        },
+        {
+            "type": "wmtheme",
+            "key": "│ ├󰉼",
+            "keyColor": "blue"
+        },
+        {
+            "type": "terminal",
+            "key": "└ └",
+            "keyColor": "#F2E4DC"
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[90m└────────────────────────────────────────────────────┘"
+        },
+        "break",
+        {
+            "type": "colors",
+            "paddingLeft": 2,
+            "symbol": "circle"
+        }
+ 
+    ]
+}
+
