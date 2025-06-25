@@ -584,7 +584,7 @@ binds {
     // so they may, for example, forward the key presses as-is to a remote machine.
     // It's a good idea to bind an escape hatch to toggle the inhibitor,
     // so a buggy application can't hold your session hostage.
-    //
+    ///
     // The allow-inhibiting=false property can be applied to other binds as well,
     // which ensures niri always processes them, even when an inhibitor is active.
     Mod+Escape allow-inhibiting=false { toggle-keyboard-shortcuts-inhibit; }
